@@ -1,0 +1,6 @@
+{
+  "name": "menu-list",
+  "version": "1.0.0",
+  "apiDependencies": ["list-menu"]
+}
+

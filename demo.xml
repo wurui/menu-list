@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="demo.xsl"?>
+<root>
+  <env>
+    <domain>local</domain>
+  </env>
+  <p>
+    <title>demo page</title>
+    <desc>this is deme page</desc>
+    <owner>openxsl</owner>
+    <icon>//oxm1.cc/img/app_default.png</icon>
+  </p>
+  <data>
+        <list-menu>
+        <i>
+            <title>
+                mobilephone
+            </title>
+            <subtitle>
+                watch
+            </subtitle>
+            <href>
+                //oxm1.cc/img/fox.jpg
+            </href>
+        </i>
+    </list-menu>
+  </data>
+
+</root>
