@@ -1,29 +1,62 @@
 <?xml version="1.0"?>
 <?xml-stylesheet type="text/xsl" href="demo.xsl"?>
 <root>
-  <env>
-    <domain>local</domain>
-  </env>
-  <p>
-    <title>demo page</title>
-    <desc>this is deme page</desc>
-    <owner>openxsl</owner>
-    <icon>//oxm1.cc/img/app_default.png</icon>
-  </p>
-  <data>
+    <env>
+        <domain>local</domain>
+    </env>
+    <p>
+        <title>demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
         <list-menu>
-        <i>
-            <title>
-                mobilephone
-            </title>
-            <subtitle>
-                watch
-            </subtitle>
-            <href>
-                //oxm1.cc/img/fox.jpg
-            </href>
-        </i>
-    </list-menu>
-  </data>
+            <i>
+                <title>
+                    常用信息
+                </title>
+                <subtitle>
+                    旅客/地址/报销凭证
+                </subtitle>
+                <href>
+                    //oxm1.cc/img/fox.jpg
+                </href>
+            </i>
+            <i>
+                <title>
+                    我的收藏
+                </title>
+                <subtitle>
+                    收藏后静等降价通知
+                </subtitle>
+                <href>
+                    //oxm1.cc/img/fox.jpg
+                </href>
+            </i>
+            <i>
+                <title>
+                    浏览历史
+                </title>
+                <subtitle>
+                    保留15天,随时可回看
+                </subtitle>
+                <href>
+                    //oxm1.cc/img/fox.jpg
+                </href>
+            </i>
+            <i>
+                <title>
+                    我要合作
+                </title>
+                <subtitle>
+                    供应商加盟/代理合作
+                </subtitle>
+                <href>
+                    //oxm1.cc/img/fox.jpg
+                </href>
+            </i>
+        </list-menu>
+    </data>
 
 </root>

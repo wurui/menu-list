@@ -1,0 +1,44 @@
+.oxmod-menu-list{
+/* CSS */
+  font-size:0;
+  ul{
+    padding:0 10px;
+  }
+  li{
+    border-bottom: solid .5px #f1f1f1;
+    //border-image: ;
+    padding:10px 0;
+  }
+  em,sub{
+    font-style:normal;
+    vertical-align: baseline;
+    display: inline-block;
+    width:50%;
+    box-sizing: border-box;
+  }
+  em{
+    font-size:14px;
+    color:#333;
+  }
+  sub{
+    color:#999;
+    font-size:12px;
+    text-align: right;
+    padding-right:25px;
+    &:after{
+      content: ' ';
+      width:8px;
+      height: 8px;
+      border-color:#888;
+      border-style: solid;
+      border-width: 1px 1px 0 0;
+      font-size:0;
+      //font-size:20px;
+      //font-family: arial;
+      float: right;
+      -webkit-transform: rotate(45deg);
+      margin-top:4px;
+      margin-right:-20px;
+    }
+  }
+ }
