@@ -3,12 +3,8 @@
     <xsl:template match="/root" name="wurui.menu-list">
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-menu-list" ox-mod="menu-list">
-
-            <h1>
-                This is mod menu-list;
-            </h1>
             <ul>
-                <xsl:for-each select="data/list-menu/i">
+                <xsl:for-each select="data/ui-entry/i">
                 <li>
                     <a href="{href}">
                         <em>
